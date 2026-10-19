@@ -1,6 +1,6 @@
 {
   "port": 8080,
-  "checkEverySeconds": 15,
+  "checkEverySeconds": 5,
   "slowMs": 1500,
   "timeoutMs": 8000,
   "failuresBeforeDown": 2,

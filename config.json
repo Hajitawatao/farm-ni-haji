@@ -1,0 +1,17 @@
+{
+  "port": 8080,
+  "checkEverySeconds": 15,
+  "slowMs": 1500,
+  "timeoutMs": 8000,
+  "failuresBeforeDown": 2,
+  "server": { "name": "Main server", "ip": "10.10.2.78" },
+  "systems": [
+    { "id": "haiss", "name": "HAISS", "short": "HAISS", "desc": "Infection control surveillance monitoring", "species": "goat", "url": "http://10.10.2.78:5173/" },
+    { "id": "ldna", "name": "LDNA", "short": "LDNA", "desc": "Learning and development needs assessment", "species": "duck", "url": "http://10.10.2.78:85/" },
+    { "id": "idsys", "name": "R1MC ID System", "short": "ID System", "desc": "ID data storage and printing", "species": "sheep", "url": "http://10.10.2.78/login" },
+    { "id": "hces", "name": "HCES/ICES Survey", "short": "HCES/ICES", "desc": "HCES/ICES survey", "species": "hen", "url": "https://survey.region1mc.cloud/login" },
+    { "id": "kiosk", "name": "R1MC Kiosk", "short": "Kiosk", "desc": "Touchscreen hospital information kiosk", "species": "horse", "url": "http://10.10.2.78:5176/" },
+    { "id": "rabis", "name": "RABIS", "short": "RABIS", "desc": "Rabies exposure and vaccination records", "species": "pig", "url": "http://10.10.2.78:8090/login" },
+    { "id": "wfp", "name": "Work and Financial Plan Encoding System", "short": "WFP Encoding", "desc": "Work and financial plan encoding", "species": "cow", "url": "http://10.10.2.78:8087/" }
+  ]
+}
